@@ -16,6 +16,9 @@ class html{
     public static function utf8():void{
         echo '<meta charset="UTF-8">';
     }
+    public static function script($path):void{
+        echo "<script src='$path'></script>";
+    }
 }
 
 
