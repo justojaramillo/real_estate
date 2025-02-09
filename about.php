@@ -1,4 +1,5 @@
 <?php
+define("PATH","http://realestate.test");
 require_once("html.php");
 ?>
 <!DOCTYPE html>

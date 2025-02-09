@@ -1,6 +1,7 @@
 <?php
 require_once("../config/config.php");
 require_once("../html.php");
+define("PATH","http://realestate.test");
 ?>
 <!DOCTYPE html>
 <html lang="en">

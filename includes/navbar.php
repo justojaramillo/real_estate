@@ -10,7 +10,7 @@
     <div class="container py-1">
         <div class="row align-items-center">
             <div class="col-8 col-md-8 col-lg-4">
-                <h1 class="mb-0"><a href="index.php" class="text-white h2 mb-0"><strong>Homeland<span class="text-danger">.</span></strong></a></h1>
+                <h1 class="mb-0"><a href="<?= PATH ?>/index.php" class="text-white h2 mb-0"><strong>Homeland<span class="text-danger">.</span></strong></a></h1>
             <?= html::div(false); ?>
             <div class="col-4 col-md-4 col-lg-8">
                 <nav class="site-navigation text-right text-md-right" role="navigation">
@@ -19,10 +19,10 @@
 
                     <ul class="site-menu js-clone-nav d-none d-lg-block">
                         <li class="active">
-                            <a href="index.php">Home</a>
+                            <a href="<?= PATH ?>/index.php">Home</a>
                         </li>
-                        <li><a href="buy.php">Buy</a></li>
-                        <li><a href="rent.php">Rent</a></li>
+                        <li><a href="<?= PATH ?>/buy.php">Buy</a></li>
+                        <li><a href="<?= PATH ?>/rent.php">Rent</a></li>
                         <li class="has-children">
                         <a href="properties.php">Properties</a>
                         <ul class="dropdown arrow-top">
@@ -32,10 +32,10 @@
                             
                         </ul>
                         </li>
-                        <li><a href="about.php">About</a></li>
-                        <li><a href="contact.php">Contact</a></li>
-                        <li><a href="login.php">Login</a></li>
-                        <li><a href="auth/register.php">Register</a></li>
+                        <li><a href="<?= PATH ?>/about.php">About</a></li>
+                        <li><a href="<?= PATH ?>/contact.php">Contact</a></li>
+                        <li><a href="<?= PATH ?>/login.php">Login</a></li>
+                        <li><a href="<?= PATH ?>/auth/register.php">Register</a></li>
                     </ul>
                 </nav>
             </div>

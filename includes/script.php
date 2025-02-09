@@ -1,6 +1,3 @@
-<?php
-define("PATH","http://realestate.test");
-?>
 <?= html::script(PATH."/js/jquery-3.3.1.min.js"); ?>
 <!-- <script src="js/jquery-3.3.1.min.js"></script> -->
 <script src="<?= PATH ?>/js/jquery-migrate-3.0.1.min.js"></script>
