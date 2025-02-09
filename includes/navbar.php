@@ -1,6 +1,3 @@
-<?php
-require_once("html.php");
-?>
 <div class="site-mobile-menu">
     <div class="site-mobile-menu-header">
     <div class="site-mobile-menu-close mt-3">
@@ -38,7 +35,7 @@ require_once("html.php");
                         <li><a href="about.php">About</a></li>
                         <li><a href="contact.php">Contact</a></li>
                         <li><a href="login.php">Login</a></li>
-                        <li><a href="register.php">Register</a></li>
+                        <li><a href="auth/register.php">Register</a></li>
                     </ul>
                 </nav>
             </div>

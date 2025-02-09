@@ -1,11 +1,12 @@
 <?php
-require_once("config/config.php");
+require_once("../config/config.php");
+require_once("../html.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Homeland &mdash; Colorlib Website Template</title>
-    <?php require_once("includes/head.php"); ?>
+    <?php require_once("../includes/head.php"); ?>
   </head>
   <body>
   
@@ -13,9 +14,9 @@ require_once("config/config.php");
   
   <div class="site-wrap">
 
-  <?php require_once("includes/navbar.php") ?>
+  <?php require_once("../includes/navbar.php") ?>
 
-    <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(images/hero_bg_2.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+    <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(<?= PATH ?>/images/hero_bg_2.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
       <div class="container">
         <div class="row align-items-center justify-content-center text-center">
           <div class="col-md-10">
@@ -59,11 +60,11 @@ require_once("config/config.php");
 
 
 
-    <?php require_once("includes/footer.php"); ?>
+    <?php require_once("../includes/footer.php"); ?>
 
 </div>
 
-<?php require_once("includes/script.php"); ?>
+<?php require_once("../includes/script.php"); ?>
   
 </body>
 </html>

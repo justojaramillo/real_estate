@@ -1,6 +1,3 @@
-<?php
-require_once("html.php");
-?>
 <footer class="site-footer">
       <div class="container">
         <div class="row">

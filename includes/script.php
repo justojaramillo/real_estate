@@ -1,17 +1,17 @@
 <?php
-require_once("html.php");
+define("PATH","http://realestate.test");
 ?>
-<?= html::script("js/jquery-3.3.1.min.js"); ?>
+<?= html::script(PATH."/js/jquery-3.3.1.min.js"); ?>
 <!-- <script src="js/jquery-3.3.1.min.js"></script> -->
-<script src="js/jquery-migrate-3.0.1.min.js"></script>
-<script src="js/jquery-ui.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/mediaelement-and-player.min.js"></script>
-<script src="js/jquery.stellar.min.js"></script>
-<script src="js/jquery.countdown.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/bootstrap-datepicker.min.js"></script>
-<script src="js/aos.js"></script>
-<script src="js/main.js"></script>
+<script src="<?= PATH ?>/js/jquery-migrate-3.0.1.min.js"></script>
+<script src="<?= PATH ?>/js/jquery-ui.js"></script>
+<script src="<?= PATH ?>/js/popper.min.js"></script>
+<script src="<?= PATH ?>/js/bootstrap.min.js"></script>
+<script src="<?= PATH ?>/js/owl.carousel.min.js"></script>
+<script src="<?= PATH ?>/js/mediaelement-and-player.min.js"></script>
+<script src="<?= PATH ?>/js/jquery.stellar.min.js"></script>
+<script src="<?= PATH ?>/js/jquery.countdown.min.js"></script>
+<script src="<?= PATH ?>/js/jquery.magnific-popup.min.js"></script>
+<script src="<?= PATH ?>/js/bootstrap-datepicker.min.js"></script>
+<script src="<?= PATH ?>/js/aos.js"></script>
+<script src="<?= PATH ?>/js/main.js"></script>
