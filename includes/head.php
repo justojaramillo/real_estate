@@ -17,9 +17,6 @@ require_once("html.php");
 <link rel="stylesheet" href="css/animate.css">
 <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 <link rel="stylesheet" href="css/fl-bigmug-line.css">
-
-
 <link rel="stylesheet" href="css/aos.css">
-
 <link rel="stylesheet" href="css/style.css">
     
