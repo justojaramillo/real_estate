@@ -5,13 +5,13 @@
     </div>
     </div>
     <div class="site-mobile-menu-body"></div>
-<?= html::div(false); ?> <!-- .site-mobile-menu -->
+<?= html::div(false) ?> <!-- .site-mobile-menu -->
 <div class="site-navbar mt-4">
     <div class="container py-1">
         <div class="row align-items-center">
             <div class="col-8 col-md-8 col-lg-4">
                 <h1 class="mb-0"><a href="<?= PATH ?>/index.php" class="text-white h2 mb-0"><strong>Homeland<span class="text-danger">.</span></strong></a></h1>
-            <?= html::div(false); ?>
+            <?= html::div(false) ?>
             <div class="col-4 col-md-4 col-lg-8">
                 <nav class="site-navigation text-right text-md-right" role="navigation">
 
@@ -29,12 +29,11 @@
                             <li><a href="#">Condo</a></li>
                             <li><a href="#">Property Land</a></li>
                             <li><a href="#">Commercial Building</a></li>
-                            
                         </ul>
                         </li>
                         <li><a href="<?= PATH ?>/about.php">About</a></li>
                         <li><a href="<?= PATH ?>/contact.php">Contact</a></li>
-                        <li><a href="<?= PATH ?>/login.php">Login</a></li>
+                        <li><a href="<?= PATH ?>/auth/login.php">Login</a></li>
                         <li><a href="<?= PATH ?>/auth/register.php">Register</a></li>
                     </ul>
                 </nav>
