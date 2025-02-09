@@ -8,7 +8,7 @@ require_once("html.php");
     </div>
     </div>
     <div class="site-mobile-menu-body"></div>
-</div> <!-- .site-mobile-menu -->
+<?= html::div(false); ?> <!-- .site-mobile-menu -->
 <div class="site-navbar mt-4">
     <div class="container py-1">
         <div class="row align-items-center">
