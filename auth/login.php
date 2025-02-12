@@ -14,7 +14,10 @@ if (isset($_POST['submit'])) {
     $user = $login->fetch(PDO::FETCH_ASSOC);
     if ($login->rowCount()>0) {
       if (password_verify($password,$user['password'])) {
-        echo "Logged";
+        $_SESSION['user_id'] = $user['user_id'];
+        $_SESSION['username'] = $user['username'];
+        $_SESSION['email'] = $user['email'];
+        header("location: ".PATH);
       }else {
         echo "<script>alert('Email or Password is wrong');</script>";
       }
