@@ -24,12 +24,18 @@
                         <li><a href="<?= PATH ?>/buy.php">Buy</a></li>
                         <li><a href="<?= PATH ?>/rent.php">Rent</a></li>
                         <li class="has-children">
-                        <a href="properties.php">Properties</a>
-                        <ul class="dropdown arrow-top">
-                            <li><a href="#">Condo</a></li>
-                            <li><a href="#">Property Land</a></li>
-                            <li><a href="#">Commercial Building</a></li>
-                        </ul>
+                            <a href="properties.php">Properties</a>
+                            <ul class="dropdown arrow-top">
+                                <li><a href="#">Condo</a></li>
+                                <li><a href="#">Property Land</a></li>
+                                <li><a href="#">Commercial Building</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <a href="properties.php"><?= $_SESSION['username'] ?></a>
+                            <ul class="dropdown arrow-top">
+                                <li><a href="<?= PATH ?>/logout.php">Log out</a></li>
+                            </ul>
                         </li>
                         <li><a href="<?= PATH ?>/about.php">About</a></li>
                         <li><a href="<?= PATH ?>/contact.php">Contact</a></li>

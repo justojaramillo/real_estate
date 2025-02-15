@@ -1,4 +1,5 @@
 <?php
+session_start();
 define("PATH","http://realestate.test");
 require_once("html.php");
 ?>
