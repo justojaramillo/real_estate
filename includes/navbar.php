@@ -31,16 +31,21 @@
                                 <li><a href="#">Commercial Building</a></li>
                             </ul>
                         </li>
-                        <li class="has-children">
-                            <a href="properties.php"><?= $_SESSION['username'] ?></a>
-                            <ul class="dropdown arrow-top">
-                                <li><a href="<?= PATH ?>/logout.php">Log out</a></li>
-                            </ul>
-                        </li>
+                        
+                        <?php if(isset($_SESSION['username'])): ?>
+                            <li class="has-children">
+                                <a href="properties.php"><?= $_SESSION['username'] ?></a>
+                                <ul class="dropdown arrow-top">
+                                    <li><a href="<?= PATH ?>/auth/logout.php">Log out</a></li>
+                                </ul>
+                            </li>
+                        <?php endif; ?>
                         <li><a href="<?= PATH ?>/about.php">About</a></li>
                         <li><a href="<?= PATH ?>/contact.php">Contact</a></li>
-                        <li><a href="<?= PATH ?>/auth/login.php">Login</a></li>
-                        <li><a href="<?= PATH ?>/auth/register.php">Register</a></li>
+                        <?php if(!isset($_SESSION['username'])): ?>
+                            <li><a href="<?= PATH ?>/auth/login.php">Login</a></li>
+                            <li><a href="<?= PATH ?>/auth/register.php">Register</a></li>
+                        <?php endif; ?>
                     </ul>
                 </nav>
             </div>

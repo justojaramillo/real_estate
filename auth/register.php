@@ -1,7 +1,15 @@
 <?php
+@session_start();
 define("PATH","http://realestate.test");
 require_once("../config/config.php");
 require_once("../html.php");
+
+
+if (isset($_SESSION['username'])) {
+  header("location: ".PATH);
+}
+  
+
 
 if (isset($_POST['submit'])) {
   if (empty($_POST['username']) || empty($_POST['email']) || empty($_POST['password'])) {
